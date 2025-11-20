@@ -81,6 +81,22 @@ export const PROJECTS: ProjectItem[] = [
     ]
   },
   {
+    title: "Multi AI Agents",
+    technologies: ["Gemini", "Google SDK", "Python"],
+    description: [
+      "Developed a currency conversion AI agent app leveraging multi-agent architecture.",
+      "Integrated multiple AI agents to communicate and solve complex conversion tasks efficiently."
+    ]
+  },
+  {
+    title: "AI Search Helper",
+    technologies: ["Gemini", "Google SDK", "Google Search Tool"],
+    description: [
+      "Developed a single AI agent using Gemini and Google SDK integrated with Google Search.",
+      "Assists users by performing web searches and summarizing the data into concise, relevant answers."
+    ]
+  },
+  {
     title: "Sufrinia - Multi LLM Chatbot",
     technologies: ["Kotlin", "XML", "Retrofit", "Gemini Flash", "Ollama", "Google TTS & STT"],
     description: [
