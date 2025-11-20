@@ -55,4 +55,5 @@ export interface AwardItem {
 export interface CertificationItem {
   name: string;
   issuer: string;
+  link?: string;
 }

@@ -18,8 +18,8 @@ export const PROFILE = {
     email: "muhammad.suffian.5959@gmail.com",
     phone: "+92 340 5878773",
     location: "Rawalpindi, Pakistan",
-    linkedin: "https://linkedin.com/in/suffiantafoor", // Placeholder URL pattern based on name
-    github: "https://github.com/suffiantafoor" // Placeholder URL pattern based on name
+    linkedin: "https://www.linkedin.com/in/muhammadsuffian/", // Placeholder URL pattern based on name
+    github: "https://github.com/MuhammadSuffian" // Placeholder URL pattern based on name
   } as ContactInfo
 };
 
@@ -177,10 +177,12 @@ export const AWARDS: AwardItem[] = [
 export const CERTIFICATIONS: CertificationItem[] = [
   {
     name: "Google Cybersecurity",
-    issuer: "Google on Coursera"
+    issuer: "Google on Coursera",
+    link: "https://coursera.org/share/6aec69b2e806f00c468f70d34ce9360a",
   },
   {
     name: "AI For Everyone",
     issuer: "deeplearning.ai on Coursera"
+    ,link: "https://coursera.org/share/1338ada61fc8b38a8acc99ac3c34f2ab"
   }
 ];
