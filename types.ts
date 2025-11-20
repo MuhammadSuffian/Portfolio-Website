@@ -10,7 +10,7 @@ export interface EducationItem {
   institution: string;
   location: string;
   degree: string;
-  gpa: string;
+  cgpa: string;
   date: string;
   honors?: string[];
   coursework?: string[];
