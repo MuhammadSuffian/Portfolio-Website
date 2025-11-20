@@ -52,25 +52,25 @@ const Projects: React.FC = () => {
       </div>
 
       {/* Research Section */}
-      <div className="bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-800 dark:to-slate-900 rounded-2xl p-8 md:p-12 text-white border border-transparent dark:border-slate-700">
+      <div className="bg-indigo-50 dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900 rounded-2xl p-8 md:p-12 text-slate-900 dark:text-white border border-indigo-100 dark:border-slate-700 transition-colors duration-300">
         <div className="flex flex-col md:flex-row items-start gap-8">
-          <div className="p-4 bg-white/10 rounded-xl backdrop-blur-sm">
-            <BookOpen size={32} className="text-indigo-300" />
+          <div className="p-4 bg-white dark:bg-white/10 rounded-xl shadow-sm dark:shadow-none backdrop-blur-sm">
+            <BookOpen size={32} className="text-indigo-600 dark:text-indigo-300" />
           </div>
           <div className="flex-1">
             <h3 className="text-2xl font-bold mb-2">Research Publication</h3>
-            <div className="inline-block px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-200 text-xs font-semibold border border-indigo-500/30 mb-6">
+            <div className="inline-block px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-500/20 text-indigo-700 dark:text-indigo-200 text-xs font-semibold border border-indigo-200 dark:border-indigo-500/30 mb-6">
               {RESEARCH[0].status}
             </div>
             
-            <h4 className="text-xl font-semibold text-indigo-200 mb-4">
+            <h4 className="text-xl font-semibold text-indigo-700 dark:text-indigo-200 mb-4">
               {RESEARCH[0].title}
             </h4>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-300 text-sm leading-relaxed">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
                {RESEARCH[0].description.map((desc, i) => (
                  <div key={i} className="flex gap-3">
-                   <span className="h-1.5 w-1.5 mt-2 rounded-full bg-indigo-400 flex-shrink-0"></span>
+                   <span className="h-1.5 w-1.5 mt-2 rounded-full bg-indigo-500 dark:bg-indigo-400 flex-shrink-0"></span>
                    <p>{desc}</p>
                  </div>
                ))}
