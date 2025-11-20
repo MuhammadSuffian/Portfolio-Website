@@ -11,7 +11,7 @@ import {
 } from './types';
 
 export const PROFILE = {
-  name: "Muhammad Suffian Tafoor",
+  name: "Muhammad Suffian Tattttfoor",
   title: "Software Engineer & Gold Medalist",
   about: "Software Engineer with a strong academic record (Gold Medalist) and hands-on experience in Android development and AI-driven solutions. Passionate about Artificial Intelligence, Machine Learning, and Deep Learning, with a proven track record of building scalable applications, optimizing performance, and conducting innovative research in energy decision support systems.",
   contact: {
