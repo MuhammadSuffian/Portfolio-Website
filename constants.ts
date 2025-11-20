@@ -11,7 +11,7 @@ import {
 } from './types';
 
 export const PROFILE = {
-  name: "Muhammad Suffian Tattttfoor",
+  name: "Muhammad Suffian Tafoor",
   title: "Software Engineer & Gold Medalist",
   about: "Software Engineer with a strong academic record (Gold Medalist) and hands-on experience in Android development and AI-driven solutions. Passionate about Artificial Intelligence, Machine Learning, and Deep Learning, with a proven track record of building scalable applications, optimizing performance, and conducting innovative research in energy decision support systems.",
   contact: {
@@ -25,7 +25,7 @@ export const PROFILE = {
 
 export const EDUCATION: EducationItem[] = [
   {
-    institution: "Foundation University Islamabad",
+    institution: "Foundation University Islamabaddddd",
     location: "Islamabad, Pakistan",
     degree: "Bachelor of Science in Software Engineering",
     gpa: "3.83/4",
