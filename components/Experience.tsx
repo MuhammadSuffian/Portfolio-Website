@@ -26,8 +26,8 @@ const Experience: React.FC = () => {
                       <p className="text-indigo-600 dark:text-indigo-400 font-medium">{edu.institution}</p>
                     </div>
                     <div className="text-sm text-slate-500 dark:text-slate-400 mt-2 sm:mt-0 flex flex-col items-start sm:items-end">
-                      <span className="flex items-center gap-1"><Calendar size={14} /> {edu.date}</span>
-                      <span className="font-semibold text-indigo-500 dark:text-indigo-400 mt-1">GPA: {edu.gpa}</span>
+                      <span className="flex items-center gap-1"><Calendar size={16} className="w-4 h-4" /> {edu.date}</span>
+                      <span className="font-semibold text-indigo-500 dark:text-indigo-400 mt-1">CGPA: {edu.cgpa}</span>
                     </div>
                   </div>
                   
@@ -77,7 +77,7 @@ const Experience: React.FC = () => {
                       <p className="text-indigo-600 dark:text-indigo-400 font-medium">{job.company}</p>
                     </div>
                     <div className="text-sm text-slate-500 dark:text-slate-400 mt-2 sm:mt-0 flex flex-col items-start sm:items-end">
-                      <span className="flex items-center gap-1"><Calendar size={14} /> {job.period}</span>
+                      <span className="flex items-center gap-1"><Calendar size={16} className="w-4 h-4" /> {job.period}</span>
                       <span className="flex items-center gap-1 mt-1"><MapPin size={14} /> {job.location}</span>
                     </div>
                   </div>
