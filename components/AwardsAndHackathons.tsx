@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { AWARDS, HACKATHONS, CERTIFICATIONS } from '../constants';
-import { Trophy, Medal, Award, BadgeCheck } from 'lucide-react';
+import { Trophy, Medal, Award, BadgeCheck, ExternalLink } from 'lucide-react';
 
 const AwardsAndHackathons: React.FC = () => {
   return (
@@ -40,6 +40,17 @@ const AwardsAndHackathons: React.FC = () => {
                 <div key={idx} className="p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors">
                   <h4 className="font-semibold text-slate-800 dark:text-slate-200 text-sm">{cert.name}</h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">{cert.issuer}</p>
+                  {cert.link && (
+                    <a
+                      href={cert.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-flex items-center gap-2 text-xs text-emerald-600 hover:underline"
+                    >
+                      View Certificate
+                      <ExternalLink size={14} />
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
