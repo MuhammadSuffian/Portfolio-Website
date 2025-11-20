@@ -29,7 +29,7 @@ export const EDUCATION: EducationItem[] = [
     location: "Islamabad, Pakistan",
     degree: "Bachelor of Science in Software Engineering",
     gpa: "3.83/4",
-    date: "Aug 2025",
+    date: "SEPT 2021 – AUG 2025",
     honors: ["Gold Medalist (Fall 2021 Batch)"],
     coursework: [
       "Artificial Intelligence", 
