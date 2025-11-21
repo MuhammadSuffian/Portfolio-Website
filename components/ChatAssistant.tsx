@@ -72,7 +72,7 @@ const ChatAssistant: React.FC = () => {
         // @ts-ignore
         const mod: any = await new Function('s', 'return import(s)')('@google/genai');
         const GoogleGenAI = mod.GoogleGenAI ?? mod.default ?? mod;
-        const ai = new GoogleGenAI({ apiKey: "AIzaSyAUWQ8q6xyhRLd51aueJj0VH4C7emtWKic" });
+        const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
         chatSessionRef.current = ai.chats.create({
           model: 'gemini-2.5-flash',
           config: {
