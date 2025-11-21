@@ -29,10 +29,11 @@ const Hero: React.FC = () => {
               <Mail size={20} />
               Get in Touch
             </a>
-            <a 
-              href="#" 
+            <a
+              href="https://drive.usercontent.google.com/uc?id=16a31jRhkN8_MZSTzssz2KJ7hmHkeph-N&export=download"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 rounded-lg bg-white text-slate-700 font-semibold border border-slate-200 shadow-sm hover:bg-slate-50 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700 dark:hover:bg-slate-700 transition-all flex items-center justify-center gap-2"
-              onClick={(e) => e.preventDefault()} // Prevent default since no actual PDF URL is provided
             >
               <Download size={20} />
               Download CV

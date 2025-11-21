@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -6,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import AwardsAndHackathons from './components/AwardsAndHackathons';
 import Contact from './components/Contact';
+import ChatAssistant from './components/ChatAssistant'; // 1. Import the component
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -60,6 +62,8 @@ const App: React.FC = () => {
         <AwardsAndHackathons />
       </main>
       <Contact />
+      {/* 2. Add the ChatAssistant component here */}
+      <ChatAssistant />
     </div>
   );
 };
