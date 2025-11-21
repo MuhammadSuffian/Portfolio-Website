@@ -59,15 +59,12 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-indigo-600 rounded-full opacity-10 blur-2xl animate-pulse dark:opacity-20"></div>
                 <div className="absolute top-4 left-4 w-72 h-72 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-600 rotate-6 shadow-2xl z-10"></div>
                 <div className="absolute top-0 left-0 w-72 h-72 rounded-2xl bg-slate-900 flex items-center justify-center z-20 overflow-hidden border-4 border-white dark:border-slate-800 shadow-xl">
-              
-                   <link  
-                   rel="icon"
-                      href="./img.jpg"
-                      type="image/png"
-                      alt={PROFILE.name} 
-                      className="w-full h-full object-cover"
-                    />
-                                {/* <span className="text-6xl font-bold text-white/20">ST</span> */}
+                                <img
+                                  src="/img.jpg"
+                                  alt="Suffian Tafoor"
+                                  className="w-full h-full object-cover"
+                                  loading="lazy"
+                                />
                 </div>
                 
                 {/* Decorative elements */}
