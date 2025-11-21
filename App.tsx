@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -7,10 +6,12 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import AwardsAndHackathons from './components/AwardsAndHackathons';
 import Contact from './components/Contact';
-import ChatAssistant from './components/ChatAssistant'; // 1. Import the component
+import ChatAssistant from './components/ChatAssistant';
+import Loader from './components/Loader';
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // 1. Initialize state based on what the index.html script determined
@@ -19,8 +20,6 @@ const App: React.FC = () => {
     }
 
     // 2. Listen for system preference changes (dynamic switching)
-    // This ensures that if the OS theme changes while the site is open, 
-    // the site updates (UNLESS the user has manually overridden it via localStorage).
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     
     const handleChange = (e: MediaQueryListEvent) => {
@@ -51,8 +50,13 @@ const App: React.FC = () => {
     }
   };
 
+  // Show Loader if state is loading
+  if (isLoading) {
+    return <Loader onComplete={() => setIsLoading(false)} />;
+  }
+
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-300 animate-in fade-in duration-700">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />
@@ -62,7 +66,6 @@ const App: React.FC = () => {
         <AwardsAndHackathons />
       </main>
       <Contact />
-      {/* 2. Add the ChatAssistant component here */}
       <ChatAssistant />
     </div>
   );
