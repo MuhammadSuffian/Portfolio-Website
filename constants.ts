@@ -134,7 +134,7 @@ export const PROJECTS: ProjectItem[] = [
       "Evaluates user sentiment to provide appropriate replies.",
       "Adapts conversational tone based on user emotion analysis."
     ],
-    link:["https://ai-sentiment-analysisgit.streamlit.app/"]
+    link:["https://github.com/MuhammadSuffian/AI-Sentiment-Analysis/blob/main/README.md"]
   }
 ];
 
