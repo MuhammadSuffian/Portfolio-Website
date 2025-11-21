@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
                       alt={PROFILE.name} 
                       className="w-full h-full object-cover"
                     /> */}
-                    <img src="img.jpg"></img>
+                    <img href="./img.jpg"></img>
                     {/* <span className="text-6xl font-bold text-white/20">ST</span> */}
                 </div>
                 
