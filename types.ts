@@ -28,6 +28,7 @@ export interface ProjectItem {
   title: string;
   technologies: string[];
   description: string[];
+  link?: string[];
 }
 
 export interface ResearchItem {

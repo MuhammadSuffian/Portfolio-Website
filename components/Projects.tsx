@@ -42,10 +42,25 @@ const Projects: React.FC = () => {
                   </li>
                 ))}
               </ul>
-
+              {/* <a href=Pro target="_blank" rel="noopener noreferrer">
               <button className="w-full py-2 mt-auto flex items-center justify-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-800/50 rounded-lg hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-colors">
                 View Details <ArrowUpRight size={16} />
               </button>
+              </a> */}
+                 {project.link ? (
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <button className="w-full py-2 mt-auto flex items-center justify-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-800/50 rounded-lg hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-colors">
+                    View Details <ArrowUpRight size={16} />
+                  </button>
+                </a>
+              ) : (
+                <button
+                  disabled
+                  className="w-full py-2 mt-auto flex items-center justify-center gap-2 text-sm font-medium text-slate-400 bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 rounded-lg cursor-not-allowed"
+                >
+                  View Details <ArrowUpRight size={16} />
+                </button>
+              )}
             </div>
           </div>
         ))}

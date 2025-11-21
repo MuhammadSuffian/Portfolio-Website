@@ -78,7 +78,8 @@ export const PROJECTS: ProjectItem[] = [
       "Problem: Energy planning systems are outdated, complex, and lack accurate forecasting or personalized insights. This results in inefficient resource allocation, increased costs, and poor sustainability outcomes.",
       "Solution: An AI-powered, user-friendly platform for accurate predictions, scenario analysis, and personalized recommendations—enabling smarter, more sustainable national energy management.",
       "Implemented WisRule algorithm to identify energy patterns and generate intelligent insights."
-    ]
+    ],
+    link:["www.google.com"]
   },
   {
     title: "Multi AI Agents",
@@ -86,7 +87,8 @@ export const PROJECTS: ProjectItem[] = [
     description: [
       "Developed a currency conversion AI agent app leveraging multi-agent architecture.",
       "Integrated multiple AI agents to communicate and solve complex conversion tasks efficiently."
-    ]
+    ],
+     link:["https://engnovate.com/ielts-writing-task-2-essay-checker/"]
   },
   {
     title: "AI Search Helper",
@@ -94,7 +96,8 @@ export const PROJECTS: ProjectItem[] = [
     description: [
       "Developed a single AI agent using Gemini and Google SDK integrated with Google Search.",
       "Assists users by performing web searches and summarizing the data into concise, relevant answers."
-    ]
+    ],
+    link:["nil"]
   },
   {
     title: "Sufrinia - Multi LLM Chatbot",
@@ -103,7 +106,8 @@ export const PROJECTS: ProjectItem[] = [
       "Android app with TTS, STT, image input, and multiple LLM models.",
       "Built an AI-powered chatbot app with dynamic UI and real-time conversational flow.",
       "Enabled flexible AI switching and dynamic context retention."
-    ]
+    ],
+    link:["nil"]
   },
   {
     title: "AI Study Buddy",
@@ -111,7 +115,8 @@ export const PROJECTS: ProjectItem[] = [
     description: [
       "LLM and RAG-based study assistance for students and teachers.",
       "Provides personalized academic support and resource generation."
-    ]
+    ],
+    link:["https://github.com/MuhammadSuffian/AI-Study-Buddy"]
   },
   {
     title: "AI HR System",
@@ -119,7 +124,8 @@ export const PROJECTS: ProjectItem[] = [
     description: [
       "Automates and assists HR in daily tasks.",
       "Handles automated query handling and employee support."
-    ]
+    ],
+    link:["https://github.com/MuhammadSuffian/AI-HR"]
   },
   {
     title: "AI Sentiment-Based Chatbot",
@@ -127,7 +133,8 @@ export const PROJECTS: ProjectItem[] = [
     description: [
       "Evaluates user sentiment to provide appropriate replies.",
       "Adapts conversational tone based on user emotion analysis."
-    ]
+    ],
+    link:["https://ai-sentiment-analysisgit.streamlit.app/"]
   }
 ];
 
