@@ -79,7 +79,7 @@ export const PROJECTS: ProjectItem[] = [
       "Solution: An AI-powered, user-friendly platform for accurate predictions, scenario analysis, and personalized recommendations—enabling smarter, more sustainable national energy management.",
       "Implemented WisRule algorithm to identify energy patterns and generate intelligent insights."
     ],
-    link:["www.google.com"]
+    link:["nil"]
   },
   {
     title: "Multi AI Agents",
@@ -88,7 +88,7 @@ export const PROJECTS: ProjectItem[] = [
       "Developed a currency conversion AI agent app leveraging multi-agent architecture.",
       "Integrated multiple AI agents to communicate and solve complex conversion tasks efficiently."
     ],
-     link:["https://engnovate.com/ielts-writing-task-2-essay-checker/"]
+     link:["nil"]
   },
   {
     title: "AI Search Helper",
@@ -99,16 +99,16 @@ export const PROJECTS: ProjectItem[] = [
     ],
     link:["nil"]
   },
-  {
-    title: "Sufrinia - Multi LLM Chatbot",
-    technologies: ["Kotlin", "XML", "Retrofit", "Gemini Flash", "Ollama", "Google TTS & STT"],
-    description: [
-      "Android app with TTS, STT, image input, and multiple LLM models.",
-      "Built an AI-powered chatbot app with dynamic UI and real-time conversational flow.",
-      "Enabled flexible AI switching and dynamic context retention."
-    ],
-    link:["nil"]
-  },
+  // {
+  //   title: "Sufrinia - Multi LLM Chatbot",
+  //   technologies: ["Kotlin", "XML", "Retrofit", "Gemini Flash", "Ollama", "Google TTS & STT"],
+  //   description: [
+  //     "Android app with TTS, STT, image input, and multiple LLM models.",
+  //     "Built an AI-powered chatbot app with dynamic UI and real-time conversational flow.",
+  //     "Enabled flexible AI switching and dynamic context retention."
+  //   ],
+  //   link:["nil"]
+  // },
   {
     title: "AI Study Buddy",
     technologies: ["LLM", "RAG", "AI", "Web"],
