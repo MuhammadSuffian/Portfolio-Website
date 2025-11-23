@@ -109,7 +109,7 @@ const ChatAssistant: React.FC = () => {
       if (!chatSessionRef.current) await initChat();
 
       if (!chatSessionRef.current) {
-        setMessages(prev => [...prev, { role: 'model', text: "AI service is not available in this environment." }]);
+        setMessages(prev => [...prev, { role: 'model', text: "Suffian is currently working on AI service." }]);
         return;
       }
 
