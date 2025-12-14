@@ -48,7 +48,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     company: "Hura Technologies",
     location: "Rawalpindi, Punjab",
     role: "Android Developer",
-    period: "July 2024 – Sep 2025",
+    period: "July 2024 – Dec 2025",
     description: [
       "Engineered and maintained Android applications with over 1M+ downloads, solving complex problems and improving UX for 10,000+ active users.",
       "Pioneered on-device AI-based apps using TensorFlow Lite and Google ML Kit.",
