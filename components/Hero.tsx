@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               Get in Touch
             </a>
             <a
-              href="https://drive.usercontent.google.com/uc?id=16a31jRhkN8_MZSTzssz2KJ7hmHkeph-N&export=download"
+              href="https://drive.usercontent.google.com/u/0/uc?id=12HxYGS05UleOAAa4uU_ejobt3172zucx&export=download"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-lg bg-white text-slate-700 font-semibold border border-slate-200 shadow-sm hover:bg-slate-50 dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700 dark:hover:bg-slate-700 transition-all flex items-center justify-center gap-2"
