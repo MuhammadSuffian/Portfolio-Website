@@ -68,7 +68,7 @@ const Experience: React.FC = () => {
         </div>
 
               {/* Professional Experience Section (Top Prominence) */}
-        <div className='space+y+20'>
+        <div className="mt-20">
           <div className="flex items-center gap-3 mb-10  ">
             <div className="p-2.5 bg-indigo-600 rounded-xl text-white shadow-lg shadow-indigo-200 dark:shadow-none">
               <Briefcase size={24} />
