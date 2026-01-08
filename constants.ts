@@ -40,6 +40,7 @@ export const EDUCATION: EducationItem[] = [
       "Computer Networks", 
       "SPM"
     ]
+    
   }
 ];
 
@@ -54,6 +55,18 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Pioneered on-device AI-based apps using TensorFlow Lite and Google ML Kit.",
       "Developed PHP APIs and implemented Retrofit-based REST API integration for Android applications.",
       "Optimized and resolved critical application issues, achieving 95% crash-free user sessions."
+    ]
+      },
+  {
+    company: "Foundation University Islamabad",
+    location: "Islamabad, Pakistan",
+    role: "Teaching Assistant (OOP & DSA Labs)",
+    period: "Sep 2022 – June 2025",
+    description: [
+      "Assisted in conducting undergraduate laboratory sessions for Object-Oriented Programming (OOP) and Data Structures & Algorithms (DSA) under the supervision of Engr. Sherjeel Farooqui.",
+      "Supported students in implementing core programming concepts including classes, inheritance, polymorphism, recursion, and fundamental data structures.",
+      "Guided students in debugging code, understanding algorithmic complexity, and applying best programming practices.",
+      "Assisted with lab evaluations, grading, and academic mentoring to enhance student performance and learning outcomes."
     ]
   }
 ];
