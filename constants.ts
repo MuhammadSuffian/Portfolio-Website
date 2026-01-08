@@ -59,6 +59,17 @@ export const EXPERIENCE: ExperienceItem[] = [
 ];
 
 export const RESEARCH: ResearchItem[] = [
+    {
+    title: "PREDICTING PHISHING ATTACKS USING NATURAL LANGUAGE PROCESSING AND USER BEHAVIORAL INDICATORS",
+    status: "Published – 18, December 2025",
+    link: "https://thesesjournal.com/index.php/1/article/view/1688#:~:text=This%20research%20proposes%20a%20comprehensive,subtle%20cues%20of%20phishing%20attempts.",
+    description: [
+      "Analyzed linguistic features of phishing messages using advanced NLP techniques to identify semantic, syntactic, and psychological deception cues.",
+      "Modeled user behavioral indicators such as link-click frequency, response time, and prior phishing exposure to capture human susceptibility factors.",
+      "Developed a hybrid machine learning framework integrating NLP-based content analysis with behavioral data for proactive phishing prediction.",
+      "Evaluated the hybrid model against traditional approaches, demonstrating improved accuracy, robustness, and detection of zero-day phishing attacks."
+    ]
+  },
   {
     title: "Wisdom Mining in Energy Decision Support",
     status: "In progress",

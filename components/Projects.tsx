@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { PROJECTS, RESEARCH } from '../constants';
-import { Code, BookOpen, ArrowUpRight } from 'lucide-react';
+import { Code, BookOpen, ArrowUpRight, ExternalLink } from 'lucide-react';
 
 const Projects: React.FC = () => {
   return (
@@ -67,31 +67,50 @@ const Projects: React.FC = () => {
       </div>
 
       {/* Research Section */}
-      <div className="bg-indigo-50 dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900 rounded-2xl p-8 md:p-12 text-slate-900 dark:text-white border border-indigo-100 dark:border-slate-700 transition-colors duration-300">
-        <div className="flex flex-col md:flex-row items-start gap-8">
-          <div className="p-4 bg-white dark:bg-white/10 rounded-xl shadow-sm dark:shadow-none backdrop-blur-sm">
-            <BookOpen size={32} className="text-indigo-600 dark:text-indigo-300" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-2xl font-bold mb-2">Research Publication</h3>
-            <div className="inline-block px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-500/20 text-indigo-700 dark:text-indigo-200 text-xs font-semibold border border-indigo-200 dark:border-indigo-500/30 mb-6">
-              {RESEARCH[0].status}
+      <div className="space-y-8">
+        <div className="flex items-center gap-3 mb-2 px-2">
+            <div className="p-2 bg-indigo-600 rounded-lg text-white">
+                <BookOpen size={20} />
             </div>
-            
-            <h4 className="text-xl font-semibold text-indigo-700 dark:text-indigo-200 mb-4">
-              {RESEARCH[0].title}
-            </h4>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-               {RESEARCH[0].description.map((desc, i) => (
-                 <div key={i} className="flex gap-3">
-                   <span className="h-1.5 w-1.5 mt-2 rounded-full bg-indigo-500 dark:bg-indigo-400 flex-shrink-0"></span>
-                   <p>{desc}</p>
-                 </div>
-               ))}
-            </div>
-          </div>
+            <h3 className="text-2xl font-bold text-slate-900 dark:text-white">Research Publications</h3>
         </div>
+
+        {RESEARCH.map((res, idx) => (
+          <div key={idx} className="bg-indigo-50 dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900 rounded-2xl p-8 md:p-12 text-slate-900 dark:text-white border border-indigo-100 dark:border-slate-700 transition-all duration-300 hover:shadow-lg">
+            <div className="flex flex-col md:flex-row items-start gap-8">
+              <div className="flex-1 w-full">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+                    <div className="inline-block px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-500/20 text-indigo-700 dark:text-indigo-200 text-xs font-semibold border border-indigo-200 dark:border-indigo-500/30">
+                        {res.status}
+                    </div>
+                    {res.link && (
+                        <a 
+                            href={res.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm font-bold text-indigo-600 dark:text-indigo-300 hover:underline decoration-2 underline-offset-4"
+                        >
+                            Read Publication <ExternalLink size={16} />
+                        </a>
+                    )}
+                </div>
+                
+                <h4 className="text-xl md:text-2xl font-bold text-indigo-700 dark:text-indigo-200 mb-6 leading-tight">
+                  {res.title}
+                </h4>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 text-slate-600 dark:text-slate-300 text-sm md:text-base leading-relaxed">
+                   {res.description.map((desc, i) => (
+                     <div key={i} className="flex gap-3">
+                       <span className="h-1.5 w-1.5 mt-2.5 rounded-full bg-indigo-500 dark:bg-indigo-400 flex-shrink-0"></span>
+                       <p>{desc}</p>
+                     </div>
+                   ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
 
     </Section>

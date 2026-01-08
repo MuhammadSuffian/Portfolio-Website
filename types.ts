@@ -35,6 +35,7 @@ export interface ResearchItem {
   title: string;
   status: string;
   description: string[];
+  link?: string;
 }
 
 export interface HackathonItem {
