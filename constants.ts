@@ -199,7 +199,7 @@ export const AWARDS: AwardItem[] = [
     year: "2025"
   },
   {
-    title: "Distinction Certificate for Academic Performance",
+    title: "Distinction Certificate & Merit-Based Scholarship for Academic Performance",
     institution: "Foundation University Islamabad",
     year: "2025"
   }
