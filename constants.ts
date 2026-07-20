@@ -128,19 +128,19 @@ export const PROJECTS: ProjectItem[] = [
   // },
   {
     title: "AI Study Buddy",
-    technologies: ["LLM", "RAG", "AI", "Web"],
-    description: [
-      "LLM and RAG-based study assistance for students and teachers.",
-      "Provides personalized academic support and resource generation."
-    ],
-    link: ["https://github.com/MuhammadSuffian/AI-Study-Buddy"]
-  },
-  {
-    title: "AI Study Buddy",
     technologies: ["Groq API", "Streamlit", "RAG", "Vector Search"],
     description: [
       "Built a Retrieval-Augmented Generation (RAG) chatbot that lets users upload multiple documents (TXT and PDF) for context-aware Q&A.",
       "Implemented automatic text chunking and vector indexing, paired with Groq API for fast inference and a Streamlit-based interactive interface."
+    ],
+    link: ["https://ai-study-buddy-beta.streamlit.app/"]
+  },
+  {
+    title: "AI Search Helper",
+    technologies: ["Gemini", "Google SDK", "Google Search Tool"],
+    description: [
+      "Developed a single AI agent using Gemini and Google SDK integrated with Google Search.",
+      "Assists users by performing web searches and summarizing the data into concise, relevant answers."
     ],
     link: ["https://ai-study-buddy-beta.streamlit.app/"]
   },
