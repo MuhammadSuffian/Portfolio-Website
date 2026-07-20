@@ -103,16 +103,17 @@ export const PROJECTS: ProjectItem[] = [
       "Solution: An AI-powered, user-friendly platform for accurate predictions, scenario analysis, and personalized recommendations—enabling smarter, more sustainable national energy management.",
       "Implemented WisRule algorithm to identify energy patterns and generate intelligent insights."
     ],
-    link:["nil"]
+    link: ["https://iesa-intelligent-energy-scenario-analysis-live-nkfuuzjjkmpmjcj.streamlit.app/"]
   },
   {
-    title: "Multi AI Agents",
-    technologies: ["Gemini", "Google SDK", "Python"],
+    title: "Stock Price Prediction using LSTM",
+    technologies: ["LSTM", "Keras", "yfinance", "Plotly", "Python"],
     description: [
-      "Developed a currency conversion AI agent app leveraging multi-agent architecture.",
-      "Integrated multiple AI agents to communicate and solve complex conversion tasks efficiently."
+      "Developed a deep learning model to predict Apple (AAPL) stock closing prices using a stacked LSTM neural network.",
+      "Pulled 13+ years of historical market data and built interactive candlestick visualizations using Plotly.",
+      "Trained the network using Open, High, Low, and Volume values to forecast future closing prices."
     ],
-     link:["nil"]
+    link: ["https://github.com/MuhammadSuffian/Stock-Price-Prediction-using-LSTM.git"]
   },
   {
     title: "AI Search Helper",
