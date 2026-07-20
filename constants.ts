@@ -136,13 +136,32 @@ export const PROJECTS: ProjectItem[] = [
     link: ["https://ai-study-buddy-beta.streamlit.app/"]
   },
   {
-    title: "AI Search Helper",
-    technologies: ["Gemini", "Google SDK", "Google Search Tool"],
+    title: "Fashion-MNIST Image Classification Using Neural Networks",
+    technologies: ["TensorFlow", "Keras", "NumPy", "Matplotlib", "Python"],
     description: [
-      "Developed a single AI agent using Gemini and Google SDK integrated with Google Search.",
-      "Assists users by performing web searches and summarizing the data into concise, relevant answers."
+      "Developed a feedforward neural network in TensorFlow/Keras to classify clothing images from the Fashion-MNIST dataset.",
+      "Built a sequential architecture consisting of Dense layers (with ReLU and Softmax activations) to recognize 10 distinct apparel categories.",
+      "Handled the end-to-end machine learning pipeline, including data normalization, validation splitting, model training, and prediction visualization."
     ],
-    link: ["https://ai-study-buddy-beta.streamlit.app/"]
+    link: ["https://github.com/MuhammadSuffian/Image-Classification-with-NN"]
+  },
+  {
+    title: "AI Sentiment-Based Chatbot",
+    technologies: ["TextBlob", "Groq API", "Speech Recognition", "Streamlit"],
+    description: [
+      "Built a voice-based app that transcribes uploaded or live-recorded audio into text using SpeechRecognition.",
+      "Performs sentiment analysis with TextBlob and generates an empathetic, LLM-driven response via the Groq API."
+    ],
+    link: ["https://ai-sentiment-analysisgit.streamlit.app/"]
+  },
+  {
+    title: "House Price Prediction with AI",
+    technologies: ["Scikit-learn", "Linear Regression", "LLM", "Streamlit"],
+    description: [
+      "Built a multi-variable Linear Regression model trained on a real-world housing dataset to predict house prices.",
+      "Integrated an LLM (openai/gpt-oss-120b) to explain predictions in natural, conversational language via an interactive Streamlit app."
+    ],
+    link: ["https://muhammadsuffian-linear-regressi-house-price-app-with-llm-loohfa.streamlit.app/"]
   },
   {
     title: "AI HR System",
@@ -154,14 +173,51 @@ export const PROJECTS: ProjectItem[] = [
     link: ["https://github.com/MuhammadSuffian/AI-HR"]
   },
   {
-    title: "AI Sentiment-Based Chatbot",
-    technologies: ["NLP", "Sentiment Analysis", "AI"],
+    title: "TechCorp IT Support Chatbot",
+    technologies: ["LangChain", "Ollama", "LLM"],
     description: [
-      "Evaluates user sentiment to provide appropriate replies.",
-      "Adapts conversational tone based on user emotion analysis."
+      "Built an IT support chatbot using LangChain and a local Ollama LLM (llama3.2) with a company-specific prompt template for common issues like VPN and account access.",
+      "Maintains conversation memory per session and auto-escalates out-of-scope issues to a human with a mock ticket number."
     ],
-    link: ["https://github.com/MuhammadSuffian/AI-Sentiment-Analysis/blob/main/README.md"]
-  }
+    link: ["https://github.com/MuhammadSuffian/Suffian_TechCorp_IT_Chatbot.git"]
+  },
+  {
+    title: "Minto - Math Expert Agent",
+    technologies: ["LangChain", "Groq API", "LLM"],
+    description: [
+      "Built Minto, a conversational math expert agent powered by LangChain and Groq's llama-3.3-70b-versatile model, using per-session conversational memory.",
+      "Answers math queries in a concise, friendly tone while politely declining anything outside the math domain."
+    ],
+    link: ["https://github.com/MuhammadSuffian/Minto-Math-expert-agent"]
+  },
+  {
+    title: "Cryptocurrency Price Prediction (BTC-USD)",
+    technologies: ["AutoTS", "Time-Series Forecasting", "Plotly"],
+    description: [
+      "Built a time-series forecasting notebook that predicts Bitcoin's closing price using AutoTS, which automatically searches and ensembles dozens of forecasting models (ETS, GLM, FFT, and more).",
+      "Fetched ~2 years of daily BTC-USD data via yfinance, visualized it with interactive Plotly candlestick charts, and forecasted the next 30 days using a validated model ensemble."
+    ],
+    link: ["https://github.com/MuhammadSuffian/CryptoCurrency-Price-Prediction-using-ML"]
+  },
+
+  {
+    title: "Future Sales Prediction",
+    technologies: ["Scikit-learn", "Linear Regression", "Pandas"],
+    description: [
+      "Trained a Linear Regression model on historical advertising and sales data to learn the relationship between marketing spend (TV, Radio, Newspaper) and product sales.",
+      "Included data preprocessing, visualization, and model evaluation to generate future sales predictions based on advertising budgets."
+    ],
+    link: ["https://github.com/MuhammadSuffian/Future_Sales_Prediciton_using_ML"]
+  },
+  {
+    title: "Waiter Tip Prediction",
+    technologies: ["Scikit-learn", "Linear Regression", "EDA"],
+    description: [
+      "Built a Linear Regression model to predict expected waiter tips from restaurant billing data, using features like total bill, party size, day, and time.",
+      "Performed exploratory data analysis and visualization to uncover customer behavior patterns, then evaluated model performance for tip prediction accuracy."
+    ],
+    link: ["https://github.com/MuhammadSuffian/Waiter_Tip_Prediction_using_ML"]
+  },
 ];
 
 export const HACKATHONS: HackathonItem[] = [
