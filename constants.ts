@@ -1,13 +1,13 @@
-import { 
-  ContactInfo, 
-  EducationItem, 
-  ExperienceItem, 
-  ProjectItem, 
-  ResearchItem, 
-  HackathonItem, 
-  SkillCategory, 
-  AwardItem, 
-  CertificationItem 
+import {
+  ContactInfo,
+  EducationItem,
+  ExperienceItem,
+  ProjectItem,
+  ResearchItem,
+  HackathonItem,
+  SkillCategory,
+  AwardItem,
+  CertificationItem
 } from './types';
 
 export const PROFILE = {
@@ -32,15 +32,15 @@ export const EDUCATION: EducationItem[] = [
     date: "SEPT 2021 – AUG 2025",
     honors: ["Gold Medalist (Fall 2021 Batch)"],
     coursework: [
-      "Artificial Intelligence", 
-      "Data Science", 
-      "Digital Image Processing", 
-      "Algorithms", 
-      "SQA", 
-      "Computer Networks", 
+      "Artificial Intelligence",
+      "Data Science",
+      "Digital Image Processing",
+      "Algorithms",
+      "SQA",
+      "Computer Networks",
       "SPM"
     ]
-    
+
   }
 ];
 
@@ -56,7 +56,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Developed PHP APIs and implemented Retrofit-based REST API integration for Android applications.",
       "Optimized and resolved critical application issues, achieving 95% crash-free user sessions."
     ]
-      },
+  },
   {
     company: "Foundation University Islamabad",
     location: "Islamabad, Pakistan",
@@ -72,7 +72,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 ];
 
 export const RESEARCH: ResearchItem[] = [
-    {
+  {
     title: "PREDICTING PHISHING ATTACKS USING NATURAL LANGUAGE PROCESSING AND USER BEHAVIORAL INDICATORS",
     status: "Published – 18, December 2025",
     link: "https://thesesjournal.com/index.php/1/article/view/1688#:~:text=This%20research%20proposes%20a%20comprehensive,subtle%20cues%20of%20phishing%20attempts.",
@@ -115,15 +115,7 @@ export const PROJECTS: ProjectItem[] = [
     ],
     link: ["https://github.com/MuhammadSuffian/Stock-Price-Prediction-using-LSTM.git"]
   },
-  {
-    title: "AI Search Helper",
-    technologies: ["Gemini", "Google SDK", "Google Search Tool"],
-    description: [
-      "Developed a single AI agent using Gemini and Google SDK integrated with Google Search.",
-      "Assists users by performing web searches and summarizing the data into concise, relevant answers."
-    ],
-    link:["nil"]
-  },
+
   // {
   //   title: "Sufrinia - Multi LLM Chatbot",
   //   technologies: ["Kotlin", "XML", "Retrofit", "Gemini Flash", "Ollama", "Google TTS & STT"],
@@ -141,7 +133,16 @@ export const PROJECTS: ProjectItem[] = [
       "LLM and RAG-based study assistance for students and teachers.",
       "Provides personalized academic support and resource generation."
     ],
-    link:["https://github.com/MuhammadSuffian/AI-Study-Buddy"]
+    link: ["https://github.com/MuhammadSuffian/AI-Study-Buddy"]
+  },
+  {
+    title: "AI Study Buddy",
+    technologies: ["Groq API", "Streamlit", "RAG", "Vector Search"],
+    description: [
+      "Built a Retrieval-Augmented Generation (RAG) chatbot that lets users upload multiple documents (TXT and PDF) for context-aware Q&A.",
+      "Implemented automatic text chunking and vector indexing, paired with Groq API for fast inference and a Streamlit-based interactive interface."
+    ],
+    link: ["https://ai-study-buddy-beta.streamlit.app/"]
   },
   {
     title: "AI HR System",
@@ -150,7 +151,7 @@ export const PROJECTS: ProjectItem[] = [
       "Automates and assists HR in daily tasks.",
       "Handles automated query handling and employee support."
     ],
-    link:["https://github.com/MuhammadSuffian/AI-HR"]
+    link: ["https://github.com/MuhammadSuffian/AI-HR"]
   },
   {
     title: "AI Sentiment-Based Chatbot",
@@ -159,7 +160,7 @@ export const PROJECTS: ProjectItem[] = [
       "Evaluates user sentiment to provide appropriate replies.",
       "Adapts conversational tone based on user emotion analysis."
     ],
-    link:["https://github.com/MuhammadSuffian/AI-Sentiment-Analysis/blob/main/README.md"]
+    link: ["https://github.com/MuhammadSuffian/AI-Sentiment-Analysis/blob/main/README.md"]
   }
 ];
 
@@ -215,6 +216,6 @@ export const CERTIFICATIONS: CertificationItem[] = [
   {
     name: "AI For Everyone",
     issuer: "deeplearning.ai on Coursera"
-    ,link: "https://coursera.org/share/1338ada61fc8b38a8acc99ac3c34f2ab"
+    , link: "https://coursera.org/share/1338ada61fc8b38a8acc99ac3c34f2ab"
   }
 ];
