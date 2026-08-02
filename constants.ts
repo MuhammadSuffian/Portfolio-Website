@@ -106,6 +106,16 @@ export const PROJECTS: ProjectItem[] = [
     link: ["https://iesa-intelligent-energy-scenario-analysis-live-nkfuuzjjkmpmjcj.streamlit.app/"]
   },
   {
+    title: "AI Legal Consultant — Pakistan",
+    technologies: ["Streamlit", "Python", "RAG (Retrieval-Augmented Generation)", "llama-3.3 70b", "Pinecone DB"],
+    description: [
+      "Problem: Legal information in Pakistan is scattered across dozens of statutes and hard to access for non-lawyers, leading to confusion around basic rights, procedures, and applicable laws in common scenarios like harassment, trafficking, and traffic accidents.",
+      "Solution: An AI-powered legal information assistant grounded in 40+ Pakistani statutes (Constitution, PPC, CrPC, PECA 2016, Trafficking & Smuggling Acts, Family Law, Corporate & Banking Acts, and more), delivering source-cited answers instead of generic or hallucinated legal advice.",
+      "Implemented a retrieval pipeline that grounds every response strictly in ingested legal documents, with inline citations (act, section, page) and explicit uncertainty flags when the knowledge base lacks sufficient information."
+    ],
+    link: ["https://suffian-ai-legal-consultant.streamlit.app/"]
+},
+  {
     title: "Stock Price Prediction using LSTM",
     technologies: ["LSTM", "Keras", "yfinance", "Plotly", "Python"],
     description: [
