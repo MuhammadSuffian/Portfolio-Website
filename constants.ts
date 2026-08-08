@@ -248,15 +248,15 @@ export const HACKATHONS: HackathonItem[] = [
 export const SKILLS: SkillCategory[] = [
   {
     name: "Programming Languages",
-    skills: ["Kotlin", "Java", "Python", "C++", "C", "SQL"]
+    skills: ["Python", "Kotlin", "Java",  "C++", "C", "SQL"]
   },
   {
     name: "Software & Tools",
-    skills: ["Git", "GitHub", "Android Studio", "Postman", "Figma", "Jupyter Notebook", "VS Code"]
+    skills: ["Git/GitHub", "Pandas", "Numpy", "Scikit-learn", "Pytorch", "TensorFlow", "Linux", "Docker"]
   },
   {
     name: "Laboratory & Research",
-    skills: ["Data Preprocessing", "Feature Selection", "Wisdom Rule Mining", "Data Visualization", "AI/ML", "Deep Learning"]
+    skills: ["Data Preprocessing", "Feature Selection", "Wisdom Rule Mining", "Data Visualization", "AI/ML", "Deep Learning", "Model Traning", "Generative AI", "LLMs", "Vision Language Models"]
   }
 ];
 
