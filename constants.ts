@@ -245,16 +245,24 @@ export const PROJECTS: ProjectItem[] = [
 
 export const HACKATHONS: HackathonItem[] = [
   {
+    name: "AI Factory by NativeBuilder 2026",
+    description: "Developed Nexus Research, an AI-powered multi-agent research platform for students and researchers to automate literature review and academic paper analysis.",
+    link: "https://lablab.ai/ai-hackathons/nativebuilder-build-without-limits/belungra/nexus-research"
+  },
+  {
     name: "Reimagine WebHackathon 2025",
-    description: "Developed AI Study Buddy, an AI-powered study assistant website for students and teachers."
+    description: "Developed AI Study Buddy, an AI-powered study assistant website for students and teachers to support their academics.",
+    link: "https://devpost.com/software/ai-study-budy"
   },
   {
-    name: "Code Fusion Hackathon 2025",
-    description: "Developed AI HR, an AI-powered HR website for automated query handling and employee support."
+    name: "Code Fusion Hackathon (ICodeGuru × WPbridge) 2025",
+    description: "Developed AI HR, an AI-powered HR website for automated query handling and employee support.",
+    link: "https://github.com/MuhammadSuffian/hackaton_sept_ai_python_chatbot_rag/tree/main"
   },
   {
-    name: "Comsats Visio Spark 2024",
-    description: "Built a mobile fitness tracking app with authentication, real-time leaderboard, and performance analytics."
+    name: "COMSATS Visio Spark 2024",
+    description: "Built a mobile fitness tracking app with authentication, real-time leaderboard, and performance analytics.",
+    link: "https://drive.google.com/file/d/1WpFeeFlIgI5gll0GmzsqK_VzoMBKej8u/view?usp=sharing"
   }
 ];
 

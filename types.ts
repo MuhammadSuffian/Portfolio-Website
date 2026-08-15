@@ -41,7 +41,9 @@ export interface ResearchItem {
 export interface HackathonItem {
   name: string;
   description: string;
+  link?: string;
 }
+
 
 export interface SkillCategory {
   name: string;

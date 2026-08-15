@@ -67,7 +67,13 @@ const AwardsAndHackathons: React.FC = () => {
               {HACKATHONS.map((hack, idx) => (
                 <div key={idx} className="relative">
                    <div className="absolute -left-[39px] top-1 h-3 w-3 rounded-full bg-indigo-400 ring-4 ring-white dark:ring-slate-900"></div>
-                   <h4 className="font-bold text-slate-800 dark:text-slate-200 text-lg">{hack.name}</h4>
+                   <h4 className="font-bold text-slate-800 dark:text-slate-200 text-lg">
+                     {hack.link ? (
+                       <a href={hack.link} target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-400 hover:underline">
+                         {hack.name}
+                       </a>
+                     ) : hack.name}
+                   </h4>
                    <p className="text-slate-600 dark:text-slate-400 mt-2 text-sm leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-3 rounded-lg border border-slate-100 dark:border-slate-800">
                      {hack.description}
                    </p>
