@@ -60,6 +60,19 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     company: "Foundation University Islamabad",
     location: "Islamabad, Pakistan",
+    role: "Research Assistant",
+    period: "Sep 2024 – Present",
+    description: [
+      "Conducting research under Dr. Muhammad Shaheen, Dean of Software Engineering, focused on applied ML and data-driven systems for the energy sector.",
+      "Developed Intelligent Energy Scenario Analysis (IESA), an end-to-end analytics platform combining WisRule wisdom rule mining, ML regression, and Transformer-based forecasting models, deployed as a multi-page Streamlit dashboard with a Supabase/PostgREST backend.",
+      "Built an integrated LLM + RAG chatbot for natural-language querying of energy scenario data.",
+      "Working on a research paper extending this work, covering symbolic rule mining and predictive modeling for the Pakistani energy sector.",
+      "Currently exploring extensions of this research toward reinforcement learning and optimization approaches for sequential decision-making problems."
+    ]
+  },
+  {
+    company: "Foundation University Islamabad",
+    location: "Islamabad, Pakistan",
     role: "Teaching Assistant (OOP & DSA Labs)",
     period: "Sep 2022 – June 2025",
     description: [
@@ -114,7 +127,7 @@ export const PROJECTS: ProjectItem[] = [
       "Implemented a retrieval pipeline that grounds every response strictly in ingested legal documents, with inline citations (act, section, page) and explicit uncertainty flags when the knowledge base lacks sufficient information."
     ],
     link: ["https://suffian-ai-legal-consultant.streamlit.app/"]
-},
+  },
   {
     title: "Stock Price Prediction using LSTM",
     technologies: ["LSTM", "Keras", "yfinance", "Plotly", "Python"],
@@ -248,7 +261,7 @@ export const HACKATHONS: HackathonItem[] = [
 export const SKILLS: SkillCategory[] = [
   {
     name: "Programming Languages",
-    skills: ["Python", "Kotlin", "Java",  "C++", "C", "SQL"]
+    skills: ["Python", "Kotlin", "Java", "C++", "C", "SQL"]
   },
   {
     name: "Software & Tools",
