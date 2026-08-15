@@ -245,7 +245,7 @@ export const PROJECTS: ProjectItem[] = [
 
 export const HACKATHONS: HackathonItem[] = [
   {
-    name: "AI Factory by NativelyAl 2026",
+    name: "AI Factory by NativeBuilder 2026",
     description: "Developed Nexus Research, an AI-powered multi-agent research platform for students and researchers to automate literature review and academic paper analysis.",
     link: "https://lablab.ai/ai-hackathons/nativebuilder-build-without-limits/belungra/nexus-research"
   },
