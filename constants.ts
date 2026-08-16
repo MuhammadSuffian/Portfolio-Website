@@ -73,11 +73,11 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     company: "Foundation University Islamabad",
     location: "Islamabad, Pakistan",
-    role: "Teaching Assistant (OOP & DSA Labs)",
+    role: "Teaching Assistant (OOP & PF Labs)",
     period: "Sep 2022 – June 2025",
     description: [
-      "Assisted in conducting undergraduate laboratory sessions for Object-Oriented Programming (OOP) and Data Structures & Algorithms (DSA) under the supervision of Engr. Sherjeel Farooqui.",
-      "Supported students in implementing core programming concepts including classes, inheritance, polymorphism, recursion, and fundamental data structures.",
+      "Assisted in conducting undergraduate laboratory sessions for Programming Fundamentals (PF) and  Object-Oriented Programming (OOP) under the supervision of Engr. Sherjeel Farooqui.",
+      "Supported students in implementing core programming concepts including classes, inheritance, polymorphism and recursion.",
       "Guided students in debugging code, understanding algorithmic complexity, and applying best programming practices.",
       "Assisted with lab evaluations, grading, and academic mentoring to enhance student performance and learning outcomes."
     ]
